@@ -8,6 +8,7 @@ public class VectorMath {
     // Arreglo genérico que guarda los componentes del vector (x, y) o (x, y, z).
     protected double[] c;
 
+    
     /*
      * CONSTRUCTOR
      * Usa "varargs" (double... c) para aceptar 2 o 3 coordenadas de jalón 
@@ -46,6 +47,7 @@ public class VectorMath {
         return new VectorMath(res);
     }
     
+
     /*
      * VISUALIZACIÓN DE TEXTO
      * Da formato a los resultados matemáticos para que se impriman en pantalla

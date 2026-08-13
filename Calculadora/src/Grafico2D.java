@@ -19,9 +19,10 @@ public class Grafico2D extends GraficoPanel {
     }
     
     /*
-     * MÉTODO DE DIBUJO PRINCIPAL
-     * Aquí se plasma visualmente todo: fondo, cuadrícula, ejes y los vectores.
+         MÉTODO DE DIBUJO PRINCIPAL
+        Aquí se plasma visualmente todo: fondo, cuadrícula, ejes y los vectores.
      */
+    
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
